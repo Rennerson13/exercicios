@@ -1,6 +1,6 @@
-nome = str(input("Entre como o nome do paciente: "))
-peso = float(input("Entre como o peso do paciente: em KG "))
-altura = float(input("Entre como a atura do paciente: em Metros "))
+nome = str(input("Entre com o nome do paciente: "))
+peso = float(input("Entre com o peso do paciente: em KG "))
+altura = float(input("Entre com a atura do paciente: em Metros "))
 
 imc = peso/(altura**2)
 print(f'Imc de {imc}')
